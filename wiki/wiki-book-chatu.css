@@ -5272,3 +5272,107 @@
   height: auto;
   word-break: break-all
 }
+/*!wiki-lemma:widget/basicElement/picture/picture.less*/
+.lemma-picture {
+  border: 1px solid #e0e0e0;
+  overflow: hidden
+}
+
+.lemma-picture .image-link {
+  display: block
+}
+
+.lemma-picture .image-link:hover {
+  opacity: .9
+}
+
+.lemma-picture img {
+  display: block;
+  margin: 0 auto
+}
+
+.lemma-picture .description {
+  display: block;
+  color: #555;
+  text-align: left;
+  font-size: 12px;
+  text-indent: 0;
+  font-family: "宋体";
+  font-weight: 400;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-style: normal;
+  line-height: 24px;
+  padding: 8px 7px;
+  min-height: 12px;
+  border-top: 1px solid #e0e0e0
+}
+
+.lemma-picture:hover .description {
+  text-decoration: none
+}
+/*!wiki-lemma:widget/lemma_content/mainContent/lemmaPicture/lemmaPicture.less*/
+.lemma-picture.text-pic {
+  margin: 0 0 10px;
+  margin-bottom: 3px;
+  position: relative
+}
+
+.lemma-picture.neweditortableimg {
+  margin: 0 auto
+}
+
+.lemma-picture.layout-right {
+  margin-left: 20px;
+  float: right;
+  clear: right
+}
+
+.lemma-picture.layout-left {
+  margin-right: 20px !important;
+  margin-left: 0;
+  float: left
+}
+
+.lemma-picture.layout-center {
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both
+}
+
+.lemma-picture.layout-panorama {
+  max-width: 790px;
+  clear: right
+}
+
+.lemma-picture.layout-panorama .scrollx {
+  overflow-x: auto;
+  overflow-y: hidden
+}
+
+.lemma-picture.layout-panorama .scrolly {
+  overflow-y: auto;
+  overflow-x: hidden
+}
+
+.lemma-picture.layout-panorama .scrolly.scrollx {
+  overflow-x: auto
+}
+
+.lemma-picture.layout-abreast {
+  display: inline-block;
+  *display: inline;
+  margin: 0 5px 0 0;
+  *zoom: 1
+}
+
+.small-screen .lemma-picture.layout-panorama {
+  width: 690px !important
+}
+.lemma-album.layout-right {
+  float: right;
+  clear: right;
+  margin-left: 20px
+}
